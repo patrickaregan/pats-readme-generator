@@ -1,6 +1,8 @@
+// Include packages needed for this application
 const fs = require('fs');
 
-const createFile = fileData => {
+// Create a function to write to a file.
+const writeFile = fileData => {
     return new Promise((resolve, reject) => {
         fs.writeFile("./dist/README.md", fileData, err => {
             if (err) {
@@ -15,4 +17,4 @@ const createFile = fileData => {
     })
 }
 
-module.exports = { createFile };
+module.exports = { writeFile };
