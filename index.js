@@ -45,6 +45,11 @@ const questions = [
         name: "usageInfo",
         message: "Provide instructions and examples for use:"
     },
+    {
+        type: "input",
+        name: "contribGuidelines",
+        message: "Provide contribution guidelines:"
+    },
 ];
 
 

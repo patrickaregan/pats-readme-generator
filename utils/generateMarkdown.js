@@ -40,6 +40,12 @@ function generateMarkdown(data) {
 
   - ${data.usageInfo}
 
+## Contributing
+
+- ${data.contribGuidelines}
+
+
+
 
 `;
 
