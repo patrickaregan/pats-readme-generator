@@ -55,6 +55,12 @@ const questions = [
         name: "testExamples",
         message: "Provide examples of how to run tests:"
     },
+    {
+        type: "list",
+        name: "licenseChoice",
+        message: "Select a license for your project:",
+        choices: ["GNU GPLv3", "MIT", "None"]
+    },
 ];
 
 

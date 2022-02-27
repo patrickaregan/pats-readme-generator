@@ -1,13 +1,15 @@
 
-# p1
+# title
+
+[![License](https://img.shields.io/badge/license-GNU GPLv3-brightgreen)]
 
 ## Description
 
-  - p2
-  - p3
-  - p4
-  - p5
-  - p6
+  - desc
+  - mot
+  - why
+  - pro
+  - learn
 
 ## Table of Contents
 
@@ -20,18 +22,21 @@
 
 ## Installation
 
-  - p7
+  - steps
 
 ## Usage
 
-  - p8
+  - inst
 
 ## Contributing
 
-- p9
+- gui
 
 ## Tests
 
-- test examples
+- ex
 
+## License
+
+- GNU GPLv3
 
