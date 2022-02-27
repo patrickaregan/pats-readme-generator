@@ -23,6 +23,20 @@ function generateMarkdown(data) {
   - ${data.descWhatProblemSolved}
   - ${data.descWhatDidYouLearn}
 
+## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#isage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+## Installation
+
+  - ${data.instInstructions}
+
+
 `;
 
 

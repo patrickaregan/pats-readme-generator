@@ -35,6 +35,11 @@ const questions = [
         name: "descWhatDidYouLearn",
         message: "What did you learn from building the project?"
     },
+    {
+        type: "input",
+        name: "instInstructions",
+        message: "What are the steps required to install your project project?"
+    },
 ];
 
 
