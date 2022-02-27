@@ -42,6 +42,10 @@ function generateMarkdown(data) {
 
   - ${data.usageInfo}
 
+## License
+
+  - ${data.licenseChoice}
+
 ## Contributing
 
 - ${data.contribGuidelines}
@@ -50,9 +54,10 @@ function generateMarkdown(data) {
 
 - ${data.testExamples}
 
-## License
+## Questions
 
-- ${data.licenseChoice}
+- [GitHub Profile](https://github.com/${data.gitHubUsername})
+- If you have additional questions please contact me via email at: ${data.emailAddress}
 
 `;
 
