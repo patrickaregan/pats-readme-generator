@@ -1,15 +1,15 @@
 
-# title
+[![license](https://img.shields.io/badge/license-GPL-brightgreen)]()
 
-[![License](https://img.shields.io/badge/license-GNU GPLv3-brightgreen)]
+# title
 
 ## Description
 
   - desc
-  - mot
-  - why
-  - pro
-  - learn
+  - moti
+  - reason
+  - problem
+  - learned
 
 ## Table of Contents
 
@@ -26,17 +26,17 @@
 
 ## Usage
 
-  - inst
+  - instru
 
 ## Contributing
 
-- gui
+- guidelines
 
 ## Tests
 
-- ex
+- tests
 
 ## License
 
-- GNU GPLv3
+- MIT
 
