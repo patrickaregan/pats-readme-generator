@@ -12,6 +12,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "briefDescription",
+        message: "Brief description of the project:"
+    },
+    {
+        type: "input",
         name: "descMotivation",
         message: "What was your motivation for the project?"
     },
@@ -43,7 +48,7 @@ function init() {
             console.log(readmeText);
             return fileOperations.writeFile(readmeText);
         })
-        .then(createFileResponse => {
+        .then(writeFileResponse => {
             console.log(writeFileResponse);
         })
         .catch(err => {

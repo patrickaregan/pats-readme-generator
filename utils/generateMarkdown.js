@@ -17,6 +17,7 @@ function generateMarkdown(data) {
 
 ## Description
 
+  - ${data.briefDescription}
   - ${data.descMotivation}
   - ${data.descWhyBuild}
   - ${data.descWhatProblemSolved}
