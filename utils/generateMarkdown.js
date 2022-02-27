@@ -44,7 +44,9 @@ function generateMarkdown(data) {
 
 - ${data.contribGuidelines}
 
+## Tests
 
+- ${data.testExamples}
 
 
 `;

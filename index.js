@@ -50,6 +50,11 @@ const questions = [
         name: "contribGuidelines",
         message: "Provide contribution guidelines:"
     },
+    {
+        type: "input",
+        name: "testExamples",
+        message: "Provide examples of how to run tests:"
+    },
 ];
 
 
