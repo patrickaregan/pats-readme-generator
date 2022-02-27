@@ -27,6 +27,9 @@
 ## Usage
 
   - In the root directory run "npm i" to install dependencies, then run "node index"
+  
+  ![Pat's README Generator](images/screenshot.png)
+  - [Watch a demo video](https://drive.google.com/file/d/1YDGHhnH2Csw6T1Zm3H4JnyebANrntva4/view)
 
 ## License
 
