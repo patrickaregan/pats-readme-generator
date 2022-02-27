@@ -110,9 +110,16 @@ const questions = [
         }
     },
     {
+        type: "confirm",
+        name: "confirmContributing",
+        message: "Would you like to add a Contributing section?",
+        default: true
+    },
+    {
         type: "input",
         name: "contribGuidelines",
         message: "Provide contribution guidelines:",
+        when: ({ confirmContributing }) => confirmContributing,
         validate: input => {
             if(input) {
                 return true;
@@ -123,9 +130,16 @@ const questions = [
         }
     },
     {
+        type: "confirm",
+        name: "confirmTests",
+        message: "Would you like to add a Tests section?",
+        default: true
+    },
+    {
         type: "input",
         name: "testExamples",
         message: "Provide examples of how to run tests:",
+        when: ({ confirmTests }) => confirmTests,
         validate: input => {
             if(input) {
                 return true;

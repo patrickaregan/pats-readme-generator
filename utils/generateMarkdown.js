@@ -10,8 +10,65 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+
+// ****************************************
+// Functions for Contributing Section
+// ****************************************
+
+// Function to get the Contributing section if the data exists
+const getContributingSection = (data) => {
+  if (!data) {
+    return "";
+  }
+
+  return `
+## Contributing
+
+  - ${data}  
+  `;
+}
+
+// Function to get the Contributing Table of Contents section if Contributing data exists
+const getContributingTOCSection = (data) => {
+  if (!data) {
+    return "";
+  }
+
+  return "- [Contributing](#contributing)";
+}
+
+// ****************************************
+// Functions for Tests Section
+// ****************************************
+
+// Function to get the Tests section if the data exists
+const getTestsSection = (data) => {
+  if (!data) {
+    return "";
+  }
+
+  return `
+## Tests
+
+  - ${data}  
+  `;
+}
+
+// Function to get the Tests Table of Contents section if Tests data exists
+const getTestsTOCSection = (data) => {
+  if (!data) {
+    return "";
+  }
+
+  return "- [Tests](#tests)";
+}
+
+
+
+// ****************************************
 // Create a function to generate markdown for README
-function generateMarkdown(data) {
+// ****************************************
+const generateMarkdown = (data) => {
   return `
 [![license](https://img.shields.io/badge/license-${data.licenseChoice}-brightgreen)]()
 
@@ -30,8 +87,8 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
+  ${getContributingTOCSection(data.contribGuidelines)}
+  ${getTestsTOCSection(data.testExamples)}
   - [Questions](#questions)
 
 ## Installation
@@ -46,13 +103,9 @@ function generateMarkdown(data) {
 
   - ${data.licenseChoice}
 
-## Contributing
+${getContributingSection(data.contribGuidelines)}
 
-- ${data.contribGuidelines}
-
-## Tests
-
-- ${data.testExamples}
+${getTestsSection(data.testExamples)}
 
 ## Questions
 
