@@ -8,68 +8,172 @@ const questions = [
     {
         type: "input",
         name: "projectTitle",
-        message: "What is the title of your project?"
+        message: "What is the title of your project?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "briefDescription",
-        message: "Brief description of the project:"
+        message: "Brief description of the project:",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "descMotivation",
-        message: "What was your motivation for the project?"
+        message: "What was your motivation for the project?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "descWhyBuild",
-        message: "Why did you build the project?"
+        message: "Why did you build the project?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "descWhatProblemSolved",
-        message: "What problem does the project solve?"
+        message: "What problem does the project solve?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "descWhatDidYouLearn",
-        message: "What did you learn from building the project?"
+        message: "What did you learn from building the project?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "instInstructions",
-        message: "What are the steps required to install your project project?"
+        message: "What steps are required to install your project?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "usageInfo",
-        message: "Provide instructions and examples for use:"
+        message: "Provide instructions and examples for use:",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "contribGuidelines",
-        message: "Provide contribution guidelines:"
+        message: "Provide contribution guidelines:",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "testExamples",
-        message: "Provide examples of how to run tests:"
+        message: "Provide examples of how to run tests:",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "list",
         name: "licenseChoice",
         message: "Select a license for your project:",
-        choices: ["GPL", "MIT", "None"]
+        choices: ["GPL", "MIT", "None"],
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "gitHubUsername",
-        message: "What is your GitHub username?"
+        message: "What is your GitHub username?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "emailAddress",
-        message: "What is your email address?"
+        message: "What is your email address?",
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("This is a required field!");
+                return false;
+            }
+        }
     },
 ];
 
