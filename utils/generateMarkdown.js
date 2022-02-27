@@ -26,7 +26,7 @@ function generateMarkdown(data) {
 ## Table of Contents
 
   - [Installation](#installation)
-  - [Usage](#isage)
+  - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -35,6 +35,10 @@ function generateMarkdown(data) {
 ## Installation
 
   - ${data.instInstructions}
+
+## Usage
+
+  - ${data.usageInfo}
 
 
 `;

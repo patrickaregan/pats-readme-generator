@@ -40,6 +40,11 @@ const questions = [
         name: "instInstructions",
         message: "What are the steps required to install your project project?"
     },
+    {
+        type: "input",
+        name: "usageInfo",
+        message: "Provide instructions and examples for use:"
+    },
 ];
 
 
